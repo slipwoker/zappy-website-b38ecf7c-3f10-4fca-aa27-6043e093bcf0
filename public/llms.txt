@@ -1,0 +1,63 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+אמנון חכמת הקבלה מציע אבחון רוחני מקצועי, הסרת עין הרע ומוצרי קבלה עבודת יד. שלב עתיק של חכמת הנסתר עם הדרכה אישית שתשנה את חייך. כנס עכשיו.
+
+### ליווי אישי
+https://example.com/guidance
+ליווי אישי מעמיק המבוסס על חכמת הקבלה ואבחון רוחני מקצועי. אמנון יזהה חסמים, יסיר עין הרע ויפתח עבורך שערים לשפע, בריאות ואהבה. קבע פגישה היום.
+
+### אודות
+https://example.com/about
+אמנון הוא מומחה קבלה ורוחניות יהודית עם שנות ניסיון בעולם הנסתר. גלה את הסיפור, השיטה והייעוד שמאחורי אמנון חכמת הקבלה ומדוע אלפים בחרו בו כמדריך רוחני.
+
+### שאלות נפוצות
+https://example.com/faq
+יש לך שאלות על הסרת עין הרע, אבחון רוחני מקצועי או מוצרי קבלה? כאן תמצא תשובות ברורות ומעמיקות שיפיגו ספקות ויכינו אותך לצעד הרוחני הבא בחייך.
+
+### צור קשר
+https://example.com/contact
+מוכן לשינוי אמיתי בחייך? צור קשר עם אמנון חכמת הקבלה לתיאום אבחון רוחני מקצועי, שאלות על מוצרי קבלה או כל עניין רוחני. המסע שלך מתחיל בהודעה אחת.
+
+### Products
+https://example.com/products
+המוצרים שלנו - אמנון חכמת הקבלה
+
+### Product Detail
+https://example.com/product/:slug
+פרטי המוצר - אמנון חכמת הקבלה
+
+### Category
+https://example.com/category/:slug
+מוצרים - אמנון חכמת הקבלה
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
