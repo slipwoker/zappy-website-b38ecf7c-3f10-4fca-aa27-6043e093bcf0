@@ -883,7 +883,7 @@
     </section>
   
 
-<section class="index-offerings-section" data-layout-spec="בית-offerings" dir="rtl">
+<section class="index-offerings-section" data-layout-spec="בית-offerings" dir="rtl" id="index-offerings-section">
   <!-- Parchment texture overlay -->
   <div class="index-offerings-texture" aria-hidden="true"></div>
 
@@ -917,10 +917,10 @@
       <p class="index-offerings-subtitle">מן האבחון האישי ועד הקריאה הרוחנית ומוצרי הקבלה המעשיים — כל שירות נבנה על בסיס חוכמת הקבלה העמוקה ומלווה בכוונה ובמסורת אותנטית.</p>
     </header>
 
-    <nav class="zappy-catalog-menu rtl" id="zappy-catalog-menu" dir="rtl" style="display:none">
+    <nav class="zappy-catalog-menu rtl" id="zappy-catalog-menu" dir="rtl" style="display: none !important;">
       <div class="catalog-menu-container">
-        <a href="/products" class="catalog-menu-item catalog-menu-all">כל המוצרים</a>
-        <div class="catalog-menu-categories" id="zappy-category-links">
+        <p class="zappy-editable"><a href="/products" class="catalog-menu-item catalog-menu-all">כל המוצרים</a>
+        </p><div class="catalog-menu-categories" id="zappy-category-links">
           <!-- Categories will be loaded dynamically -->
         </div>
       </div>
@@ -928,12 +928,12 @@
   
 
     <!-- Cards grid -->
-    <div class="index-offerings-grid">
+    <div class="index-offerings-grid zappy-preserve-css-grid" id="zappy-auto-grid-1777032685257-nn8mvy" data-zappy-auto-grid="true" data-original-item-width="352" data-original-gap="32px" style="--zappy-grid-cols: repeat(3, minmax(0, 1fr)); display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: stretch !important;" data-zappy-explicit-columns="true">
 
       <!-- Card 1: Personal Diagnostics -->
-      <article class="index-offerings-card">
+      <article class="index-offerings-card" data-grid-item-index="0">
         <div class="index-offerings-card-image-wrap">
-          <img data-placeholder="index-offerings-image-1" data-context="Mystical Kabbalistic spiritual diagnostic session: a wise man studying ancient Hebrew manuscripts and sacred texts by warm candlelight, surrounded by old books, amulets, and symbolic objects on a wooden desk. Warm parchment tones, scholarly atmosphere." width="600" height="400" src="/assets/site-index-offerings-image-1.webp" alt="אבחון רוחני מקצועי בחוכמת הקבלה">
+          <img data-placeholder="index-offerings-image-1" data-context="Mystical Kabbalistic spiritual diagnostic session: a wise man studying ancient Hebrew manuscripts and sacred texts by warm candlelight, surrounded by old books, amulets, and symbolic objects on a wooden desk. Warm parchment tones, scholarly atmosphere." width="600" height="400" src="/assets/site-index-offerings-image-1.webp" alt="אבחון רוחני מקצועי בחוכמת הקבלה" data-element-type="image" data-element-id="img-1777032685225-1643hek6x" style="">
         </div>
         <div class="index-offerings-card-body">
           <div class="index-offerings-card-icon" aria-hidden="true">
@@ -946,16 +946,16 @@
               <line x1="26" y1="18" x2="32" y2="18"></line>
             </svg>
           </div>
-          <h3 class="index-offerings-card-title">אבחון רוחני אישי</h3>
-          <p class="index-offerings-card-text">אבחון רוחני מקצועי המבוסס על חוכמת הקבלה — בוחן את המצב האנרגטי, מזהה חסמים ומציע נתיב לאיזון. כל אבחון מותאם אישית ומתבצע בהקשבה עמוקה ובידע מסורתי.</p>
-          <a href="/contact" class="index-offerings-card-link">לפרטים נוספים <span aria-hidden="true">←</span></a>
-        </div>
+          <h3 class="index-offerings-card-title" style="">אבחון רוחני אישי</h3>
+          <p class="index-offerings-card-text" style="">אבחון רוחני מקצועי המבוסס על חוכמת הקבלה — בוחן את המצב האנרגטי, מזהה חסמים ומציע נתיב לאיזון. כל אבחון מותאם אישית ומתבצע בהקשבה עמוקה ובידע מסורתי.</p>
+          <p><a href="/contact" class="index-offerings-card-link">לפרטים נוספים <span aria-hidden="true">←</span></a>
+        </p></div>
       </article>
 
       <!-- Card 2: Spiritual Readings -->
-      <article class="index-offerings-card">
+      <article class="index-offerings-card" data-grid-item-index="1">
         <div class="index-offerings-card-image-wrap">
-          <img data-placeholder="index-offerings-image-2" data-context="Kabbalistic spiritual reading session: open ancient Hebrew book with hand-written mystical text, a lit candle casting golden light, Star of David symbol, mystical Hebrew letters on aged parchment. Serene, contemplative, golden and deep blue tones." width="600" height="400" src="/assets/site-index-offerings-image-2.webp" alt="קריאה רוחנית ופרשנות קבלית">
+          <img data-placeholder="index-offerings-image-2" data-context="Kabbalistic spiritual reading session: open ancient Hebrew book with hand-written mystical text, a lit candle casting golden light, Star of David symbol, mystical Hebrew letters on aged parchment. Serene, contemplative, golden and deep blue tones." width="600" height="400" src="/assets/site-index-offerings-image-2.webp" alt="קריאה רוחנית ופרשנות קבלית" data-element-type="image" data-element-id="img-1777032685225-y99v14woh" style="">
         </div>
         <div class="index-offerings-card-body">
           <div class="index-offerings-card-icon" aria-hidden="true">
@@ -968,16 +968,24 @@
               <line x1="20" y1="19" x2="24" y2="19"></line>
             </svg>
           </div>
-          <h3 class="index-offerings-card-title">קריאה רוחנית ופרשנות</h3>
-          <p class="index-offerings-card-text">קריאות מעמיקות המשלבות פרשנות קבלית עם הנחיה אישית — הסרת עין הרע, ניתוח מצבים חיים, וגילוי נתיבים נסתרים. הקריאה מעניקה בהירות, כיוון ושלווה פנימית.</p>
-          <a href="/contact" class="index-offerings-card-link">לפרטים נוספים <span aria-hidden="true">←</span></a>
-        </div>
+          <h3 class="index-offerings-card-title" style="">
+
+אבחון רוחני אישי
+
+</h3>
+          <p class="index-offerings-card-text" style="">
+
+אבחון רוחני מקצועי המבוסס על חוכמת הקבלה - בוחן את המצב האנרגטי, מזהה חסמים ומציע נתיב לאיזון. כל אבחון מותאם אישית ומתבצע בהקשבה עמוקה ובידע מסורתי.
+
+</p>
+          <p><a href="/contact" class="index-offerings-card-link">לפרטים נוספים <span aria-hidden="true">←</span></a>
+        </p></div>
       </article>
 
       <!-- Card 3: Handcrafted Objects -->
-      <article class="index-offerings-card">
+      <article class="index-offerings-card" data-grid-item-index="2">
         <div class="index-offerings-card-image-wrap">
-          <img data-placeholder="index-offerings-image-3" data-context="Handcrafted Kabbalistic amulets and sacred objects: artisan hands crafting a protective amulet with Hebrew letters, red string, blue evil eye beads, and gold-leaf symbols on natural materials. Warm workshop light, artisanal and spiritual atmosphere." width="600" height="400" src="/assets/site-index-offerings-image-3.webp" alt="מוצרי קבלה עבודת יד">
+          <img data-placeholder="index-offerings-image-3" data-context="Handcrafted Kabbalistic amulets and sacred objects: artisan hands crafting a protective amulet with Hebrew letters, red string, blue evil eye beads, and gold-leaf symbols on natural materials. Warm workshop light, artisanal and spiritual atmosphere." width="600" height="400" src="/assets/site-index-offerings-image-3.webp" alt="מוצרי קבלה עבודת יד" data-element-type="image" data-element-id="img-1777032685225-ts95mhme4" style="">
         </div>
         <div class="index-offerings-card-body">
           <div class="index-offerings-card-icon" aria-hidden="true">
@@ -987,8 +995,8 @@
           </div>
           <h3 class="index-offerings-card-title">מוצרי קבלה עבודת יד</h3>
           <p class="index-offerings-card-text">חנות למוצרי קבלה — קמיעות, סגולות ועצמים מיוחדים המיוצרים בעבודת יד עם כוונה ומסורת. כל פריט נוצר מחומרים טבעיים ומוקדש בטקס קבלי לשמירה, הגנה ושגשוג.</p>
-          <a href="/contact" class="index-offerings-card-link">לפרטים נוספים <span aria-hidden="true">←</span></a>
-        </div>
+          <p class="zappy-editable"><a href="/contact" class="index-offerings-card-link">לפרטים נוספים <span aria-hidden="true">←</span></a>
+        </p></div>
       </article>
 
     </div>
